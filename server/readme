@@ -1,0 +1,32 @@
+Steps to configure a test suit
+
+1. Add jest to your package.json.
+
+2. Execute yarn/npm jest --init.
+
+3. Choose your configurations acording your enviroment.
+
+4. Modify the jest.config.js to match your folders target.
+
+5. Add sucrase/nodemon plugin to be able to monitoring correctly your project.
+
+6. Create a folder to store your tests, like __tests__.
+
+7. Create files with the name extensions *.tests.js.
+
+8. Add your location path tests to the jest.config.js.
+
+9. Is good have coverage collector enable in your project.
+
+10. Add @types/jest to your dev dependencies to have autocomplete in your test files.
+
+11. Configure your enviroment variables to use a test database like sqlite.
+
+// Execute a TDD example
+
+1. Create your table using sequelize
+
+2. Configure your scripts to run migrations before your tests begin
+
+3. Dont forget to install sqlite to your dev dependencies
+
